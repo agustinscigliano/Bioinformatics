@@ -17,7 +17,7 @@ my @array;
 my $in = Bio::SeqIO->new(-file => "$ARGV[0]", '-format' => 'genBank');
 my @segments = ("0F","1F", "2F", "0R","1R","2R");
 foreach my $i (0..5){
-	$array[$i]=Bio::SeqIO->new(-file => ">out/".$segments[$i].".fa", '-format' => 'Fasta');
+	$array[$i]=Bio::SeqIO->new(-file => ">".$segments[$i].".fa", '-format' => 'Fasta');
 }
 
 my @sequences = Bio::SeqUtils->translate_6frames($in->next_seq());
