@@ -8,11 +8,12 @@ use Bio::SeqIO;
 # Input: FASTA sequence path
 # Output: BLAST sequence file.
 # Warning: NCBI remote server is used (Internet required).
+# Usage (from root folder): perl src/Ex2.pm output/1/0F.fa output/2
 sub fastaToBlast{
-	my ($fastaPath) = @_;
+	my ($fastaPath,$outPath) = @_;
 	#Reload FASTA sequence from file location.
 	$fasta = Bio::SeqIO->new(-file => $fastaPath, -format => "fasta");
 	#Calculate and write BLAST sequence
-	write_blast(">$fastaPath.blast",blast_sequence($fasta->next_seq));
+	write_blast(">$outPath.out",blast_sequence($fasta->next_seq));
 }
-fastaToBlast($ARGV[0]);
+fastaToBlast($ARGV[0],$ARGV[1]);

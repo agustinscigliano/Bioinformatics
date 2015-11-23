@@ -1,0 +1,63 @@
+BLASTP 2.3.0+
+
+
+Stephen F. Altschul, Thomas L. Madden, Alejandro
+A. Schaffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and
+David J. Lipman (1997), "Gapped BLAST and PSI-BLAST: a new
+generation of protein database search programs", Nucleic
+Acids Res. 25:3389-3402.
+
+Query= blast-sequence-temp-id 
+       (665 letters)
+
+Database: All non-redundant GenBank CDStranslations+PDB+SwissProt+PIR+PRF excluding environmental samplesfrom WGS projects
+           77,306,371 sequences; 28,104,191,422 total letters
+
+                                                                 Score       E
+Sequences producing significant alignments:                      (bits)    value
+
+
+  Database: All non-redundant GenBank CDStranslations+PDB+SwissProt+PIR+PRF excluding environmental samplesfrom WGS projects
+    Posted date:  Nov 21, 2015  1:45 AM
+	Number of letters in database: 28,104,191,422
+	Number of sequences in database: 77,306,371
+
+  Matrix: BLOSUM62
+  Gap Penalties Existence: 11, Extension: 1
+allowgaps: yes
+expect: 1e-10
+Search Statistics
+A: 40
+Hits_to_DB: 1,786,951,851
+S1: 40
+S1_bits: 20.0
+S2: 186
+S2_bits: 76.3
+T: 11
+X1: 15
+X1_bits: 7.1
+X2: 38
+X2_bits: 14.6
+X3: 64
+X3_bits: 24.7
+dbentries: 77,306,371
+dbletters: 28,104,191,422
+effectivedblength: 15,889,784,804
+effectivespace: 8,056,120,895,628
+effectivespaceused: 8,056,120,895,628
+entropy: 0.481
+entropy_gapped: 0.140
+kappa: 0.141
+kappa_gapped: 0.0410
+lambda: 0.326
+lambda_gapped: 0.267
+length_adjustment: 158
+num_extensions: 73,149,577
+num_successful_extensions: 168,856
+number_of_hsps_better_than_expect_value_cutoff_without_gapping: 0
+number_of_hsps_gapped: 168,856
+number_of_hsps_successfully_gapped: 0
+querylength: 507
+seqs_better_than_1e-10: 0
+
+
