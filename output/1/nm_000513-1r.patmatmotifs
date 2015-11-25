@@ -1,0 +1,33 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Wed 25 Nov 2015 17:58:56
+# Commandline: patmatmotifs
+#    [-sequence] 1R.fa
+# Report_format: dbmotif
+# Report_file: nm_000513-1r.patmatmotifs
+########################################
+
+#=======================================
+#
+# Sequence: NM_000513-1R     from: 1   to: 665
+# HitCount: 1
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 504 of sequence
+End = position 507 of sequence
+
+Motif = AMIDATION
+
+DLXSHTGRRCSPPG
+     |  |
+   504  507
+
+
+#---------------------------------------
+#---------------------------------------

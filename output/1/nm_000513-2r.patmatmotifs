@@ -1,0 +1,33 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Wed 25 Nov 2015 17:59:10
+# Commandline: patmatmotifs
+#    [-sequence] 2R.fa
+# Report_format: dbmotif
+# Report_file: nm_000513-2r.patmatmotifs
+########################################
+
+#=======================================
+#
+# Sequence: NM_000513-2R     from: 1   to: 665
+# HitCount: 1
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 268 of sequence
+End = position 271 of sequence
+
+Motif = AMIDATION
+
+APVGGMGRRQTSCR
+     |  |
+   268  271
+
+
+#---------------------------------------
+#---------------------------------------

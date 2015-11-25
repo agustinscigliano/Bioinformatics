@@ -1,0 +1,23 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Wed 25 Nov 2015 17:57:49
+# Commandline: patmatmotifs
+#    [-sequence] 0F.fa
+# Report_format: dbmotif
+# Report_file: nm_000513-0f.patmatmotifs
+########################################
+
+#=======================================
+#
+# Sequence: NM_000513-0F     from: 1   to: 666
+# HitCount: 0
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+
+#---------------------------------------
+#---------------------------------------

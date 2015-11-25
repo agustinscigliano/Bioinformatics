@@ -1,0 +1,63 @@
+########################################
+# Program: patmatmotifs
+# Rundate: Wed 25 Nov 2015 17:58:49
+# Commandline: patmatmotifs
+#    [-sequence] 1F.fa
+# Report_format: dbmotif
+# Report_file: nm_000513-1f.patmatmotifs
+########################################
+
+#=======================================
+#
+# Sequence: NM_000513-1F     from: 1   to: 665
+# HitCount: 4
+#
+# Full: No
+# Prune: Yes
+# Data_file: /usr/share/EMBOSS/data/PROSITE/prosite.lines
+#
+#=======================================
+
+Length = 4
+Start = position 364 of sequence
+End = position 367 of sequence
+
+Motif = AMIDATION
+
+CILQLFGKKVDDGS
+     |  |
+   364  367
+
+Length = 17
+Start = position 166 of sequence
+End = position 182 of sequence
+
+Motif = G_PROTEIN_RECEP_F1_1
+
+SLCGITGLWSLAIISWERWMVVCKPFG
+     |               |
+   166               182
+
+Length = 17
+Start = position 333 of sequence
+End = position 349 of sequence
+
+Motif = OPSIN
+
+PLMAALPAFFAKSATIYNPVIYVFMNR
+     |               |
+   333               349
+
+Length = 12
+Start = position 305 of sequence
+End = position 316 of sequence
+
+Motif = EGF_2
+
+MVLAFCFCWGPYAFFACFAAAN
+     |          |
+   305          316
+
+
+#---------------------------------------
+#---------------------------------------
