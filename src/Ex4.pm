@@ -30,14 +30,14 @@ sub calculateORF{
 sub analyzeSequenceDomains{
 	my ($aminoacidSeqPath, $factory, $motifPath)= @_;
 	$motifPath = "$motifPath.motifs";#add file extension
-	$patmatmotifs = $factory->program('patmatmotifs');
+	my $patmatmotifs = $factory->program('patmatmotifs');
 	$patmatmotifs->run({
-						-sequence => $getorfoutfile,
-						-outfile   => $outfile,
+						-sequence => $aminoacidSeqPath,
+						-outfile   => $motifPath,
 						-full => 1 
 						});
 }
 
-$embossFactory = Bio::Factory::EMBOSS -> new();
-$proteinSeqPath= calculateORF($ARGV[0],$embossFactory);
+my $embossFactory = Bio::Factory::EMBOSS -> new();
+my $proteinSeqPath = calculateORF($ARGV[0],$embossFactory);
 analyzeSequenceDomains($proteinSeqPath,$embossFactory, $ARGV[1]);
