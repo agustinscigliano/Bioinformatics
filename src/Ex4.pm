@@ -7,7 +7,8 @@ use Bio::Factory::EMBOSS;
 # of that given ORF.
 # Input: a genbank compatible file path, a destination path for ORF, a destination path for motif.
 # Output: ORF (in .orf extension) , Motifs (.motif) using the same destination path.
-# Usage (from root folder):
+# Usage (from root folder):perl src/Ex4.pm input/224831254.gb test.orf test.motif
+
 
 
 # Given a nucleotide fasta secuence path (potentially coming form Ex1.pm)
@@ -41,6 +42,6 @@ my $genbank = $ARGV[0];
 my $ORFOutpath = $ARGV[1];
 my $MotifOutpath = $ARGV[2];
 
-calculateORF($genbank,$embossFactory,$ORFOutpath);
+calculateORF($genbank,$ORFOutpath);
 
 analyzeSequenceDomains($ORFOutpath, $MotifOutpath);
