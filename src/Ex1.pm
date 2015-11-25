@@ -24,5 +24,6 @@ my @sequences = Bio::SeqUtils->translate_6frames($in->next_seq());
 
 foreach my $j (0..5){
     $array[$j]->write_seq($sequences[$j]);
+    print "Largo secuencia " . $segments[$j] . ": ".  $sequences[$j]->length . "\n";
 }
 
