@@ -39,5 +39,5 @@ sub analyzeSequenceDomains{
 }
 
 my $embossFactory = Bio::Factory::EMBOSS -> new();
-my $proteinSeqPath = calculateORF($ARGV[0],$embossFactory);
+my $proteinSeqPath = calculateORF($ARGV[0],$embossFactory,$ARGV[1]);
 analyzeSequenceDomains($proteinSeqPath,$embossFactory, $ARGV[1]);
